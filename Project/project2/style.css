@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #82616D;
+}
+
+#mtext {
+ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+}
+
+#mtext h1{
+    white-space: nowrap;
+    user-select: none;
+    font-size: 8vw;
+    width: 100%;
+    font-weight: 100;
+    color: white;
+    line-height: 1;
+
+}
+
+
+#mtext h3{
+    white-space: nowrap;
+    user-select: none;
+    font-size: 4vw;
+    width: 100%;
+    font-weight: 100;
+    color: white;
+    line-height: 1;
+
+}
+
+
+
+
+#left{
+    overflow: hidden;
+
+    position: relative;
+    width: 45%;
+    height: 100%;
+   
+}
+
+#nav{
+    display: flex;
+    color: white;
+    width: 100%;
+
+    padding: 40px 60px;
+    gap: 60px;
+
+}
+
+#nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    align-items: center;
+}
+
+#nav h3{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 4px;
+
+}
+
+#centerimg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    height: 50%;
+
+    /* background-image: url(https://images.unsplash.com/photo-1694488273995-e6421d0e69c1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+
+    background-image: url(https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+    background-size: cover;
+    background-position: center;
+}
+
+#centerimg #text{
+    display: flex;
+    position: absolute;
+    top: 110%;
+    width: 100%;
+    color: white;
+
+}
+
+#text #parts{
+    width: 40%;
+   
+}
+
+#parts h5{
+    margin-bottom: 20px;
+
+}
+
+#text #para{
+    width: 70%;
+     
+}
+
+#para p{
+    line-height: 20px;
+    font-size: 10px;
+    font-weight: 400px;
+}
+
+
+#scroll{
+    position: absolute;
+    bottom: -10px;
+    left: 10%;
+
+    transform-origin: 0% 50%;
+    transform: rotate(-90deg);
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#scroll h4{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 6px;
+    color: white;
+}
+
+#scroll #line{
+    width: 100px;
+    height: 2px;
+    background-color: white;
+}
+
+
+
+
+
+#center{
+    position: relative;
+    width: 50%;
+    height: 100%;
+
+   /* background-image: url(https://images.unsplash.com/photo-1586770802838-e524ec9018a8?q=80&w=1949&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+
+   background-image: url(https://plus.unsplash.com/premium_photo-1682095661711-f5d67d0e75a9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   background-size: cover;
+   background-position: center;
+   
+}
+
+#center #card{
+    display: flex;
+    position: absolute;
+    right: -5%;
+    bottom: 5%;
+    width: 200px;
+    height: 130px;
+    background-color: red;
+    z-index: 999;
+}
+
+#cicons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 20%;
+    height: 100%;
+    background-color:white;
+
+}
+
+#cimage{
+    width: 80%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1604782206219-3b9576575203?q=80&w=1897&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+#right{
+    width: 5%;
+    height: 100%;
+}
+
+#relem{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    color: white;  
+}
+
+#relem #rlinks{
+  display: flex;
+  transform:translateY(-150px) rotate(90deg);
+  gap: 50px;
+
+}
+
+#rlinks a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+}

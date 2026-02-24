@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+
+}
+
+#left{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    background-image: url(https://images.unsplash.com/photo-1642176849879-92f85770f212?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* jab bhi kuch agal bagal karna ho ,tab hum FLEXBOX USE krte hain ,else niche chala jata hain */
+
+#right{
+    width: 50%;
+    height: 100%;
+    /* background-color:yellow; */
+    background-image: url(https://images.unsplash.com/photo-1617780421515-08fae9caa171?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#overlay1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.482);
+}
+
+#overlay2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.482);
+}
+
+#text{
+    position: absolute;
+    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    /* background-color: aqua; */
+
+    width: 100%;
+    /* right: 0; */
+
+}
+
+/* one line mei nahi aa raha kyu ke text ke pass widht nahi hai, after giving width it will come in one line */
+
+#text h1{
+    font-size: 30px;
+}
+
+#text p{
+    font-size: 15px;
+}
+
+#text2 {
+    position: absolute;
+    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    /* background-color: aqua; */
+
+    width: 100%;
+    /* right: 0; */
+
+}
+
+
+#text2 h1{
+    font-size: 30px;
+}
+
+#text2 p{
+    font-size: 15px;
+}

@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  
+    
+}
+
+#left{
+    width: 80%;
+    height: 100%;
+   
+}
+
+#left #ltop{
+  
+    position: relative;
+    width: 100%;
+    height: 70%;
+    background-image: url(https://images.unsplash.com/photo-1466781783364-36c955e42a7f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
+#btmright{
+   
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    width: 60px;
+    height: 40px;
+    background-color:white;
+  
+   
+
+}
+
+#btmright i{
+    font-size: 20px;
+
+   
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+#left #lbottom{
+    width: 100%;
+    height: 30%;
+    color: white;
+    padding: 50px 100px ;
+    background-color: #222;
+}
+/* padding mei first value hain top-bottom ke and second value hain left-right  */
+
+#lbtmcontent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    
+}
+
+#cntntleft{
+    width: 45%;
+    height: 100%;
+   
+}
+
+#cntntleft p{
+    width: 70%;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+#cntntright{
+    width: 45%;
+    height:100%;
+}
+
+.row{
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+
+}
+
+.relem{
+    display: flex;
+
+}
+
+.relemtext{
+    margin-left: 10px;
+}
+
+.relemtext h6{
+    opacity: .5;
+    font-weight: 500;
+}
+
+.relem i{
+    color:rgba(84, 221, 84, 0.493);
+}
+
+
+
+
+
+#right{
+    width: 20%;
+    height: 100%;
+}
+
+#right #rtop{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    padding: 50px;
+    background-color: white;   
+  
+}    
+
+#rtop a{
+    text-decoration: none;
+    color: black;
+   
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+    
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-family: "Montserrat"; 
+   
+}
+
+#rtop #selected {
+    position: relative;
+    margin-left: 20px;
+}
+
+#rtop #selected::before {
+    content: "";
+
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translate(0,-50%);
+
+    width: 10px;
+    height: 2px;
+    background-color: black;
+
+}
+
+#icons{
+    display: flex;
+    flex-direction: column ;
+    padding: 30px;
+    top: 0;
+    right: 0;
+    gap: 20px;
+    position: absolute;
+}
+
+#icons i{
+    font-size:20px ;
+}
+
+#btmflower{
+    position: absolute;
+    left: 0 ;
+    bottom: 0;
+    width: 100px;
+    height: 120px;
+    /* background-color: red; */
+    background-image: url(https://images.unsplash.com/photo-1533038590840-1cde6e668a91?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+
+    background-position: bottom;
+
+}
+
+#btmflower i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50,-50%);
+    color: white;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.358);
+    font-size: 20px;
+
+}
+
+
+
+#right #rbottom{
+    position: relative;
+
+    width: 100%;
+    height: 30%;
+    background-image: url(https://images.unsplash.com/photo-1522404419647-18cb51cc5c7a?q=80&w=1883&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
+#capsule{
+    position: absolute;
+
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%,0);
+
+    width: 90%;
+    padding: 10px 20px;
+    background-color: white;
+
+}
+
+#capsule h2{
+    margin-top: 10px;
+    font-size: 19px;
+    line-height: 1;
+}
+
+#capsule p{
+    font-size: 12px;
+    width: 90%;
+    font-weight: 500;
+    opacity: .5;
+}

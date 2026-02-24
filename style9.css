@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* background-color: #dadada; */
+}
+
+#left{
+    width: 80%;
+    height: 100%;
+  
+}
+#left  #ltop{
+    width: 100%;
+    height: 70%;
+
+    background-image: url(https://images.unsplash.com/photo-1466781783364-36c955e42a7f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    
+  background-size: cover;
+ 
+} 
+/* padding means to create an invisible border in a container */
+
+#left #lbottom{
+    width: 100%;
+    height: 30%;
+    
+    background-color: #222;
+    color: white;
+    padding: 50px 120px;
+}  
+/* padding mei first value hain top-bottom ke and second value hain left-right  */
+
+ #lbtmcontent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+   
+
+} 
+
+#cntntleft{
+    width: 45%;
+    height: 100%;
+   
+}
+
+#cntntleft p{
+    width: 70%;
+    margin-top: 5%;
+    font-size: 10px;
+}
+
+#cntntright{
+    width: 45%;
+    height: 100%;
+  
+}
+
+.row {
+    display: flex;
+    margin-top: 7px;
+}
+
+.relem{
+    display: flex;
+}
+
+.relemtext{
+    margin-left: 7px;
+}
+
+.relemtext h6{
+    opacity: .5;
+    font-weight: 500;
+} 
+
+
+#right {
+    width: 20%;
+    height: 100%;
+    
+    /* background-color:red; */
+    
+}
+
+#right #rtop {
+    width: 100%;
+    height: 70%;
+    background-color: aqua;
+   
+}
+
+ #right #rbottom {
+    width: 100%;
+    height: 30%;
+    background-color: palevioletred;
+    
+}  
